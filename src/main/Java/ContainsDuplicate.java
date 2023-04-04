@@ -1,4 +1,8 @@
-class Solution {
+package main.Java;
+
+import java.util.HashSet;
+
+class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
 
         HashSet<Integer> hashSet=new HashSet<Integer>();
@@ -20,4 +24,5 @@ class Solution {
         // return false;
 
     }
+
 }
